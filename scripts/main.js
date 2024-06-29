@@ -13,6 +13,11 @@ myImage.onclick = function () {
     }
 };
 */
+
+document.querySelector("img").addEventListener("click", () => {
+  alert("别戳我，我怕疼，嘶，啊嘶~");
+});
+/*
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
@@ -25,3 +30,4 @@ function setUserName() {
 myButton.onclick = function () {
     setUserName();
 }
+*/
