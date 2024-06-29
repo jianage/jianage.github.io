@@ -22,13 +22,6 @@ function setUserName() {
     myHeading.textContent = "奥里给！！！" + myName;
 }
 
-if (!localStorage.getItem("name")) {
-    setUserName()
-} else {
-    let storedName = localStorage.getItem("name");
-    myHeading.textContent = "奥里给！！" + storedName;
-}
-
 myButton.onclick = function () {
     setUserName();
 }
