@@ -1,0 +1,120 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url("南岭二教1.fe0f4021.jpg");
+  font-size: 10px;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #fff;
+  font-family: Long Cang, cursive;
+}
+
+p, input, li {
+  color: #2a2a2a;
+  font-family: Noto Sans SC, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 10px #000;
+  font-size: 4rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+header {
+  flex-flow: wrap;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+main, header, nav, article, aside, footer, section {
+  background-color: #4169e1;
+  padding: 1%;
+}
+
+h1 {
+  text-transform: uppercase;
+  flex: 5;
+}
+
+nav {
+  flex: 100%;
+  height: 50px;
+  display: flex;
+}
+
+nav ul {
+  flex: 2;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  text-align: center;
+  flex: 1;
+  display: inline;
+}
+
+nav ul #scenery {
+  background-color: #1e90ff;
+  padding: 0;
+}
+
+nav a, nav span {
+  text-transform: uppercase;
+  color: #000;
+  height: 3rem;
+  font-size: 2rem;
+  line-height: 1.7;
+  text-decoration: none;
+  display: inline-block;
+}
+
+main .campus {
+  display: flex;
+}
+
+main .campus .campusBrief {
+  flex: 1;
+}
+
+main .campus .campusBrief p {
+  color: #fff;
+}
+
+main .campus .campusScenery {
+  flex: 1;
+  max-width: 45%;
+  height: 400px;
+}
+
+main .campus .campusScenery img {
+  width: 240px;
+  height: 200px;
+}
+/*# sourceMappingURL=scenery.5e98a12c.css.map */
